@@ -1,0 +1,31 @@
+/* smooth scrool */
+html{
+  scroll-behavior: smooth;
+}
+/* custom scrool bar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff737e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff737e;
+}
+/* success btn */
+
+.btn-outline-success{
+  border: 1px solid #c0f5c0!important;
+  /* background-color: #c0f5c0!important; */
+}
