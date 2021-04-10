@@ -1,0 +1,12 @@
+body{
+  background-color: #000111;
+}
+
+.social a{
+  color: red!important;
+  padding: 0 10px;
+}
+
+.brand-image {
+  margin-top: -60px;
+}
