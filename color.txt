@@ -1,0 +1,18 @@
+body{
+  background-color: #000111;
+}
+
+.card-custom{
+  background-color: #353642!important;
+}
+
+.card-custom:hover{
+  background-color: #c0f5c0!important;
+  color: #000;
+
+}
+
+.headline-text{
+  color: #ff737e!important;
+
+}

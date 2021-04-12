@@ -3,7 +3,6 @@ body{
 }
 
 .social a{
-  color: red!important;
   padding: 0 10px;
   color: #ff737e!important;
 }
@@ -35,7 +34,7 @@ body{
 }
 
 .animated-scrool{
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .card-custom{
@@ -55,4 +54,45 @@ body{
 .card-custom:hover{
   background-color: #c0f5c0!important;
   color: #000;
+
+}
+
+.headline-text{
+  line-height: 50px!important;
+  color: #ff737e!important;
+
+}
+
+.section-item li{
+  list-style: none;
+  font-size: 18px;
+  color:#fff;
+  margin-bottom: 20px;
+}
+.section-item li i{
+  padding-right: 20px;
+}
+.section-item li span{
+  padding-left: 40px;
+}
+
+.bg-custom{
+  background-color: #000111!important;
+
+}
+
+#help-btn{
+  position:fixed;
+  bottom: 10px;
+  z-index: 5;
+  left: 5px;
+}
+
+#moving-text-container{
+  background-color: #353642!important;
+  -webkit-box-shadow: 1px 1px 25px -5px rgba(192,245,192,0.49) !important;
+  box-shadow: 1px 1px 25px -5px rgba(192,245,192,0.49) !important;
+}
+.price-text{
+color: #fff!important; 
 }
