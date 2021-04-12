@@ -101,3 +101,9 @@ body{
 .footer-content a{
   color:#fff!important;
 }
+@media (max-width:762) {
+  #two-section image{
+    width: 120px !important;
+    height: 120px!important;
+  }
+}
