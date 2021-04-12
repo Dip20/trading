@@ -93,6 +93,11 @@ body{
   -webkit-box-shadow: 1px 1px 25px -5px rgba(192,245,192,0.49) !important;
   box-shadow: 1px 1px 25px -5px rgba(192,245,192,0.49) !important;
 }
-.price-text{
-color: #fff!important; 
+
+.footer-content{
+  background-color: #353642!important;
+
+}
+.footer-content a{
+  color:#fff!important;
 }
