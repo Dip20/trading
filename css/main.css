@@ -11,8 +11,6 @@ body{
   font-size: 16px!important;
 }
 
-
-
 .navbar .nav-item .nav-link:hover{
   color: #fff!important;
 }
@@ -48,7 +46,7 @@ body{
 }
 
 .hero-header{
-  line-height: 50px !important;
+  line-height: 40px !important;
 }
 
 .hero-text{
@@ -101,6 +99,9 @@ body{
   padding-left: 40px;
 }
 
+.section-item li{
+  font-size: 16px!important;
+}
 .bg-custom{
   background-color: #000111!important;
 
@@ -128,29 +129,24 @@ body{
   text-decoration: none!important;
 }
 .footer-content a:hover{
-  color: #fff!important; 
+  color: #fff!important;
 }
 
-@media (max-width:762) {
-  #two-section image{
-    width: 120px !important;
-    height: 120px!important;
-  }
-}
 
-.side-12{
-  font-size: 8px!important;
-}
 
-.side-14{
+.size-14{
   font-size: 14px!important;
 }
 
-.side-18{
+.size-16{
+  font-size: 16px!important;
+}
+
+.size-18{
   font-size: 18px!important;
 }
 
-.side-22{
+.size-22{
   font-size: 22px!important;
 }
 
@@ -160,4 +156,24 @@ body{
 
 footer a{
   font-size: 14px!important;
+}
+.Updates{
+  font-size: 16px!important;
+}
+
+.resource-item a:hover{
+  padding-left: 10px!important;
+
+
+}
+
+/* responsive */
+@media (max-width:762px) {
+  #two-section image{
+    width: 120px !important;
+    height: 120px!important;
+  }
+  #section-update{
+    width: 100%!important;
+  }
 }
