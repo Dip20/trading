@@ -2,6 +2,16 @@ body{
   background-color: #000111;
 }
 
+.navbar{
+  background-color: #000111!important;
+}
+.navbar .nav-item .nav-link{
+  color: #ff737e!important;
+}
+
+.navbar-toggler i{
+  color: #ff737e!important;
+}
 .social a{
   padding: 0 10px;
   color: #ff737e!important;
@@ -12,11 +22,12 @@ body{
   right: 5px;
 }
 
-.social-email{
-  color: #ff737e!important;
-  position: absolute;
-  left: 30px;
+.social-icon a{
+  font-size: 18px!important;
+}
 
+.nav-email{
+  color: #ff737e!important;
 }
 
 .brand-image {
