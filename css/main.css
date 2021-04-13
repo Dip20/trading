@@ -6,12 +6,25 @@ body{
   background-color: #000111!important;
 }
 .navbar .nav-item .nav-link{
-  color: #ff737e!important;
+  color: #aaa!important;
+  padding: 12px!important;
+  font-size: 16px!important;
+}
+
+
+
+.navbar .nav-item .nav-link:hover{
+  color: #fff!important;
 }
 
 .navbar-toggler i{
   color: #ff737e!important;
 }
+
+.navbar-toggler{
+  outline: none!important;
+}
+
 .social a{
   padding: 0 10px;
   color: #ff737e!important;
@@ -50,6 +63,7 @@ body{
 
 .card-custom{
   padding: 30px 40px 30px 40px;
+  height: 100%;
 }
 
 .card-custom-text{
@@ -109,12 +123,41 @@ body{
   background-color: #353642!important;
 
 }
-.footer-content a{
-  color:#fff!important;
+.footer-content a,.footer-content p, .footer-content h5{
+  color:#aaa!important;
+  text-decoration: none!important;
 }
+.footer-content a:hover{
+  color: #fff!important; 
+}
+
 @media (max-width:762) {
   #two-section image{
     width: 120px !important;
     height: 120px!important;
   }
+}
+
+.side-12{
+  font-size: 8px!important;
+}
+
+.side-14{
+  font-size: 14px!important;
+}
+
+.side-18{
+  font-size: 18px!important;
+}
+
+.side-22{
+  font-size: 22px!important;
+}
+
+.side-24{
+  font-size: 24px!important;
+}
+
+footer a{
+  font-size: 14px!important;
 }
