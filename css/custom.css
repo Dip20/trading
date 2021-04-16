@@ -23,12 +23,7 @@ html{
 ::-webkit-scrollbar-thumb:hover {
   background: #ff737e;
 }
-/* success btn */
-
-.btn-danger{
-  /* border: 1px solid #c0f5c0!important; */
-
-}
+/* danger btn */
 
 .btn-danger{
   background-color: #ff737e!important;
@@ -36,10 +31,15 @@ html{
   color: #fff!important;
 }
 
+.btn-danger:hover{
+  background-color: #e2424f!important;
+}
+
 .btn-outline-danger{
   border: 1px solid #ff737e!important;
   color: #ff737e!important;
 }
+
 .btn-outline-danger:hover{
   background-color: #ff737e!important;
   color: #fff!important;
