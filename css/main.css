@@ -11,9 +11,9 @@ body{
   background-color: #000111!important;
 }
 .navbar .nav-item .nav-link{
-  color: #aaa!important;
+  color: #aaa;
   padding: 12px!important;
-  font-size: 16px!important;
+  font-size: 18px!important;
 }
 
 .navbar .nav-item .nav-link:hover{
@@ -26,6 +26,10 @@ body{
 
 .navbar-toggler{
   outline: none!important;
+}
+
+.nav-item .nav-active{
+  color:#ff737e!important;
 }
 
 .social a{
@@ -42,8 +46,9 @@ body{
   font-size: 18px!important;
 }
 
-.nav-email{
+.nav-email a{
   color: #ff737e!important;
+  padding-top:18px!important;
 }
 
 .brand-image {
@@ -124,7 +129,7 @@ body{
 }
 
 
-#moving-text-container{
+#singals{
   background-color: #353642!important;
   -webkit-box-shadow: 1px 1px 25px -5px rgba(192,245,192,0.49) !important;
   box-shadow: 1px 1px 25px -5px rgba(192,245,192,0.49) !important;
@@ -134,7 +139,7 @@ body{
   background-color: #353642!important;
 
 }
-.footer-content a,.footer-content p, .footer-content h5{
+.footer-content a, .footer-content h5, .footer-content-p{
   color:#aaa!important;
   text-decoration: none!important;
 }
@@ -217,13 +222,16 @@ form label{
 }
 
 #myBtn:hover {
-  background-color: #aaa;
+  background-color: #e2424f;
 }
-
 
 .mt-c{
     margin-top: 90px!important;
 }
 .text-custom-fc{
   color: #ff737e!important;
+}
+
+.footer-text-color {
+    color: #ff737e!important;
 }
