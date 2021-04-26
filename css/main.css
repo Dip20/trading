@@ -18,6 +18,8 @@ body{
 
 .navbar .nav-item .nav-link:hover{
   color: #fff!important;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .navbar-toggler i{
@@ -87,6 +89,8 @@ body{
 .card-custom:hover{
   background-color: #418952!important;
   color: #fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 
 }
 
@@ -145,6 +149,8 @@ body{
 }
 .footer-content a:hover{
   color: #fff!important;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 
@@ -183,6 +189,8 @@ footer a{
 
 .resource-item a:hover{
   padding-left: 10px!important;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 
 
 }
@@ -223,6 +231,8 @@ form label{
 
 #myBtn:hover {
   background-color: #e2424f;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .mt-c{
@@ -234,4 +244,9 @@ form label{
 
 .footer-text-color {
     color: #ff737e!important;
+}
+
+#terms_condition p{
+  line-height: 32px!important;
+  margin-left: 15px;
 }
