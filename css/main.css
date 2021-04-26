@@ -133,7 +133,7 @@ body{
 }
 
 
-#singals{
+#signals{
   background-color: #353642!important;
   -webkit-box-shadow: 1px 1px 25px -5px rgba(192,245,192,0.49) !important;
   box-shadow: 1px 1px 25px -5px rgba(192,245,192,0.49) !important;
@@ -246,7 +246,13 @@ form label{
     color: #ff737e!important;
 }
 
-#terms_condition p{
+#custom_formatting{
+  background-color: #353642!important;
+  /* -webkit-box-shadow: 1px 1px 25px -5px rgba(192,245,192,0.49) !important;
+  box-shadow: 1px 1px 25px -5px rgba(192,245,192,0.49) !important; */
+}
+
+#custom_formatting p{
   line-height: 32px!important;
   margin-left: 15px;
 }
